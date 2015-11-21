@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15CAC0011C00D30D0012CA81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CAC0001C00D30D0012CA81 /* AppDelegate.swift */; };
+		15CAC0031C00D30D0012CA81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CAC0021C00D30D0012CA81 /* ViewController.swift */; };
+		15CAC0061C00D30D0012CA81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CAC0041C00D30D0012CA81 /* Main.storyboard */; };
+		15CAC0091C00D30D0012CA81 /* DailyPlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15CAC0071C00D30D0012CA81 /* DailyPlanner.xcdatamodeld */; };
+		15CAC00B1C00D30D0012CA81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15CAC00A1C00D30D0012CA81 /* Assets.xcassets */; };
+		15CAC00E1C00D30D0012CA81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CAC00C1C00D30D0012CA81 /* LaunchScreen.storyboard */; };
+		15CAC0191C00D30D0012CA81 /* DailyPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CAC0181C00D30D0012CA81 /* DailyPlannerTests.swift */; };
+		15CAC0241C00D30E0012CA81 /* DailyPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CAC0231C00D30E0012CA81 /* DailyPlannerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15CAC0151C00D30D0012CA81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15CABFF51C00D30D0012CA81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15CABFFC1C00D30D0012CA81;
+			remoteInfo = DailyPlanner;
+		};
+		15CAC0201C00D30E0012CA81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15CABFF51C00D30D0012CA81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15CABFFC1C00D30D0012CA81;
+			remoteInfo = DailyPlanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15CABFFD1C00D30D0012CA81 /* DailyPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15CAC0001C00D30D0012CA81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15CAC0021C00D30D0012CA81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15CAC0051C00D30D0012CA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15CAC0081C00D30D0012CA81 /* DailyPlanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DailyPlanner.xcdatamodel; sourceTree = "<group>"; };
+		15CAC00A1C00D30D0012CA81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15CAC00D1C00D30D0012CA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15CAC00F1C00D30D0012CA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15CAC0141C00D30D0012CA81 /* DailyPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyPlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15CAC0181C00D30D0012CA81 /* DailyPlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPlannerTests.swift; sourceTree = "<group>"; };
+		15CAC01A1C00D30D0012CA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15CAC01F1C00D30E0012CA81 /* DailyPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15CAC0231C00D30E0012CA81 /* DailyPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPlannerUITests.swift; sourceTree = "<group>"; };
+		15CAC0251C00D30E0012CA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15CABFFA1C00D30D0012CA81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CAC0111C00D30D0012CA81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CAC01C1C00D30E0012CA81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15CABFF41C00D30D0012CA81 = {
+			isa = PBXGroup;
+			children = (
+				15CABFFF1C00D30D0012CA81 /* DailyPlanner */,
+				15CAC0171C00D30D0012CA81 /* DailyPlannerTests */,
+				15CAC0221C00D30E0012CA81 /* DailyPlannerUITests */,
+				15CABFFE1C00D30D0012CA81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15CABFFE1C00D30D0012CA81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15CABFFD1C00D30D0012CA81 /* DailyPlanner.app */,
+				15CAC0141C00D30D0012CA81 /* DailyPlannerTests.xctest */,
+				15CAC01F1C00D30E0012CA81 /* DailyPlannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15CABFFF1C00D30D0012CA81 /* DailyPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				15CAC0001C00D30D0012CA81 /* AppDelegate.swift */,
+				15CAC0021C00D30D0012CA81 /* ViewController.swift */,
+				15CAC0041C00D30D0012CA81 /* Main.storyboard */,
+				15CAC00A1C00D30D0012CA81 /* Assets.xcassets */,
+				15CAC00C1C00D30D0012CA81 /* LaunchScreen.storyboard */,
+				15CAC00F1C00D30D0012CA81 /* Info.plist */,
+				15CAC0071C00D30D0012CA81 /* DailyPlanner.xcdatamodeld */,
+			);
+			path = DailyPlanner;
+			sourceTree = "<group>";
+		};
+		15CAC0171C00D30D0012CA81 /* DailyPlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				15CAC0181C00D30D0012CA81 /* DailyPlannerTests.swift */,
+				15CAC01A1C00D30D0012CA81 /* Info.plist */,
+			);
+			path = DailyPlannerTests;
+			sourceTree = "<group>";
+		};
+		15CAC0221C00D30E0012CA81 /* DailyPlannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15CAC0231C00D30E0012CA81 /* DailyPlannerUITests.swift */,
+				15CAC0251C00D30E0012CA81 /* Info.plist */,
+			);
+			path = DailyPlannerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15CABFFC1C00D30D0012CA81 /* DailyPlanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15CAC0281C00D30E0012CA81 /* Build configuration list for PBXNativeTarget "DailyPlanner" */;
+			buildPhases = (
+				15CABFF91C00D30D0012CA81 /* Sources */,
+				15CABFFA1C00D30D0012CA81 /* Frameworks */,
+				15CABFFB1C00D30D0012CA81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyPlanner;
+			productName = DailyPlanner;
+			productReference = 15CABFFD1C00D30D0012CA81 /* DailyPlanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15CAC0131C00D30D0012CA81 /* DailyPlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15CAC02B1C00D30E0012CA81 /* Build configuration list for PBXNativeTarget "DailyPlannerTests" */;
+			buildPhases = (
+				15CAC0101C00D30D0012CA81 /* Sources */,
+				15CAC0111C00D30D0012CA81 /* Frameworks */,
+				15CAC0121C00D30D0012CA81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15CAC0161C00D30D0012CA81 /* PBXTargetDependency */,
+			);
+			name = DailyPlannerTests;
+			productName = DailyPlannerTests;
+			productReference = 15CAC0141C00D30D0012CA81 /* DailyPlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15CAC01E1C00D30E0012CA81 /* DailyPlannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15CAC02E1C00D30E0012CA81 /* Build configuration list for PBXNativeTarget "DailyPlannerUITests" */;
+			buildPhases = (
+				15CAC01B1C00D30E0012CA81 /* Sources */,
+				15CAC01C1C00D30E0012CA81 /* Frameworks */,
+				15CAC01D1C00D30E0012CA81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15CAC0211C00D30E0012CA81 /* PBXTargetDependency */,
+			);
+			name = DailyPlannerUITests;
+			productName = DailyPlannerUITests;
+			productReference = 15CAC01F1C00D30E0012CA81 /* DailyPlannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15CABFF51C00D30D0012CA81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Hafiz Developer";
+				TargetAttributes = {
+					15CABFFC1C00D30D0012CA81 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					15CAC0131C00D30D0012CA81 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 15CABFFC1C00D30D0012CA81;
+					};
+					15CAC01E1C00D30E0012CA81 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 15CABFFC1C00D30D0012CA81;
+					};
+				};
+			};
+			buildConfigurationList = 15CABFF81C00D30D0012CA81 /* Build configuration list for PBXProject "DailyPlanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15CABFF41C00D30D0012CA81;
+			productRefGroup = 15CABFFE1C00D30D0012CA81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15CABFFC1C00D30D0012CA81 /* DailyPlanner */,
+				15CAC0131C00D30D0012CA81 /* DailyPlannerTests */,
+				15CAC01E1C00D30E0012CA81 /* DailyPlannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15CABFFB1C00D30D0012CA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CAC00E1C00D30D0012CA81 /* LaunchScreen.storyboard in Resources */,
+				15CAC00B1C00D30D0012CA81 /* Assets.xcassets in Resources */,
+				15CAC0061C00D30D0012CA81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CAC0121C00D30D0012CA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CAC01D1C00D30E0012CA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15CABFF91C00D30D0012CA81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CAC0031C00D30D0012CA81 /* ViewController.swift in Sources */,
+				15CAC0091C00D30D0012CA81 /* DailyPlanner.xcdatamodeld in Sources */,
+				15CAC0011C00D30D0012CA81 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CAC0101C00D30D0012CA81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CAC0191C00D30D0012CA81 /* DailyPlannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CAC01B1C00D30E0012CA81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CAC0241C00D30E0012CA81 /* DailyPlannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15CAC0161C00D30D0012CA81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15CABFFC1C00D30D0012CA81 /* DailyPlanner */;
+			targetProxy = 15CAC0151C00D30D0012CA81 /* PBXContainerItemProxy */;
+		};
+		15CAC0211C00D30E0012CA81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15CABFFC1C00D30D0012CA81 /* DailyPlanner */;
+			targetProxy = 15CAC0201C00D30E0012CA81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15CAC0041C00D30D0012CA81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15CAC0051C00D30D0012CA81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15CAC00C1C00D30D0012CA81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15CAC00D1C00D30D0012CA81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15CAC0261C00D30E0012CA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15CAC0271C00D30E0012CA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15CAC0291C00D30E0012CA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DailyPlanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abdurrahman.DailyPlanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15CAC02A1C00D30E0012CA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DailyPlanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abdurrahman.DailyPlanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		15CAC02C1C00D30E0012CA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DailyPlannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abdurrahman.DailyPlannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyPlanner.app/DailyPlanner";
+			};
+			name = Debug;
+		};
+		15CAC02D1C00D30E0012CA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DailyPlannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abdurrahman.DailyPlannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyPlanner.app/DailyPlanner";
+			};
+			name = Release;
+		};
+		15CAC02F1C00D30E0012CA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DailyPlannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abdurrahman.DailyPlannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DailyPlanner;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		15CAC0301C00D30E0012CA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DailyPlannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abdurrahman.DailyPlannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DailyPlanner;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15CABFF81C00D30D0012CA81 /* Build configuration list for PBXProject "DailyPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15CAC0261C00D30E0012CA81 /* Debug */,
+				15CAC0271C00D30E0012CA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15CAC0281C00D30E0012CA81 /* Build configuration list for PBXNativeTarget "DailyPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15CAC0291C00D30E0012CA81 /* Debug */,
+				15CAC02A1C00D30E0012CA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15CAC02B1C00D30E0012CA81 /* Build configuration list for PBXNativeTarget "DailyPlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15CAC02C1C00D30E0012CA81 /* Debug */,
+				15CAC02D1C00D30E0012CA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15CAC02E1C00D30E0012CA81 /* Build configuration list for PBXNativeTarget "DailyPlannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15CAC02F1C00D30E0012CA81 /* Debug */,
+				15CAC0301C00D30E0012CA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		15CAC0071C00D30D0012CA81 /* DailyPlanner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				15CAC0081C00D30D0012CA81 /* DailyPlanner.xcdatamodel */,
+			);
+			currentVersion = 15CAC0081C00D30D0012CA81 /* DailyPlanner.xcdatamodel */;
+			path = DailyPlanner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 15CABFF51C00D30D0012CA81 /* Project object */;
+}
