@@ -15,6 +15,8 @@
 		15CAC00E1C00D30D0012CA81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CAC00C1C00D30D0012CA81 /* LaunchScreen.storyboard */; };
 		15CAC0191C00D30D0012CA81 /* DailyPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CAC0181C00D30D0012CA81 /* DailyPlannerTests.swift */; };
 		15CAC0241C00D30E0012CA81 /* DailyPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CAC0231C00D30E0012CA81 /* DailyPlannerUITests.swift */; };
+		15CAC0341C00EA9F0012CA81 /* TasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CAC0331C00EA9F0012CA81 /* TasksTableViewController.swift */; };
+		15CAC0361C00FC410012CA81 /* EditTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CAC0351C00FC410012CA81 /* EditTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		15CAC01F1C00D30E0012CA81 /* DailyPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15CAC0231C00D30E0012CA81 /* DailyPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPlannerUITests.swift; sourceTree = "<group>"; };
 		15CAC0251C00D30E0012CA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15CAC0331C00EA9F0012CA81 /* TasksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksTableViewController.swift; sourceTree = "<group>"; };
+		15CAC0351C00FC410012CA81 /* EditTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				15CAC0001C00D30D0012CA81 /* AppDelegate.swift */,
 				15CAC0021C00D30D0012CA81 /* ViewController.swift */,
+				15CAC0331C00EA9F0012CA81 /* TasksTableViewController.swift */,
+				15CAC0351C00FC410012CA81 /* EditTaskViewController.swift */,
 				15CAC0041C00D30D0012CA81 /* Main.storyboard */,
 				15CAC00A1C00D30D0012CA81 /* Assets.xcassets */,
 				15CAC00C1C00D30D0012CA81 /* LaunchScreen.storyboard */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15CAC0341C00EA9F0012CA81 /* TasksTableViewController.swift in Sources */,
 				15CAC0031C00D30D0012CA81 /* ViewController.swift in Sources */,
+				15CAC0361C00FC410012CA81 /* EditTaskViewController.swift in Sources */,
 				15CAC0091C00D30D0012CA81 /* DailyPlanner.xcdatamodeld in Sources */,
 				15CAC0011C00D30D0012CA81 /* AppDelegate.swift in Sources */,
 			);
